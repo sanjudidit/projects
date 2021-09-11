@@ -1,0 +1,125 @@
+@import 'UTILITIES.CSS';
+:ROOT{
+    --PRIMARY:#3DCFD3;
+    --DARK:#161616;
+    --PURE:#FFFFFF;
+    --TERNARY:#898989;
+    --LIGHT:#F2F2F2;
+}
+BODY{
+   font-family: 'Poppins', sans-serif;
+    
+}
+*{
+    PADDING:0;
+    MARGIN:0;
+    box-sizing: border-box;
+    -WEBKIT-FONT-SMOOTHING:ANTIALIASED;
+}
+HEADER{
+    BACKGROUND: VAR(--DARK);
+    clip-path: polygon(0 0,100% 0,100% 100%,75% 90%, 0 98%);
+}
+.CONTAINER{
+    MAX-WIDTH:1152PX;
+    PADDING:0 15PX;
+    MARGIN:0 AUTO;
+}
+HEADER NAV .LEFT A{
+    COLOR:VAR(--PURE);
+    text-decoration: NONE;
+    margin-right: 2REM;
+    text-transform: uppercase;
+    TRANSITION:ALL .3S EASE;
+
+}
+HEADER NAV .LEFT A:HOVER{
+    color: var(--PRIMARY);
+}
+DIV.RIGHT{
+    COLOR:WHITE;
+}
+HEADER NAV {
+    PADDING:2REM 0;
+}
+HEADER NAV .BRANDING{
+    margin-right: 3REM;
+}
+.HERO .RIGHT{
+    color: VAR(--PURE);
+}
+.HERO .RIGHT H6{
+    font-size: 1.6REM;
+    color: VAR(--PRIMARY);
+    margin-bottom: 0.5REM;
+}
+.HERO .RIGHT H1{
+    font-size: 2.5REM;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 1.5REM;
+}
+.HERO .RIGHT H1 SPAN{
+    color: VAR(--PRIMARY);
+}
+.HERO .RIGHT P{
+    line-height: 1.5REM;
+    margin-bottom: 2REM;;
+}
+.hero{
+    padding: 2rem 0;
+}
+.HERO .RIGHT {
+    margin-top: -7rem;
+}
+section{
+    padding: 6rem 0;
+}
+section.about .about-me-image{
+    height: 450px;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section.about h1 span{
+    color: var(--PRIMARY);
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    color: var(--TERNARY);
+    line-height: 1.9;
+    margin-bottom: 2REM;
+}
+section.about .social{
+    display: flex;
+}
+section.about .social a{
+    background:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height:35px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition: ALL .3S ease;
+}
+section.about .social a:hover{
+    background:var(--PRIMARY);
+
+}
+section.about .social a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+section.about .social a:hover{
+    background: :VAR(var(--PRIMARY);
+}
